@@ -177,3 +177,18 @@ header {
   gap: 20px;
   max-width: 30%;
 }
+/* Big Features Section */
+.big-features-section {
+  padding: 30px var(--padding-inline-section 0);
+  margin-top: 30px;
+}
+.big-features-container {
+  gap: 30px;
+}
+.feature-image img {
+  width: 100%;
+}
+.features-desc {
+  flex-direction: column;
+  align-items: flex-start;
+}
