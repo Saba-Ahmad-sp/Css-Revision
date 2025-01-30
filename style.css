@@ -178,6 +178,9 @@ header {
   max-width: 30%;
   text-align: center;
 }
+.features-card img {
+  width: 60px;
+}
 /* Big Features Section */
 .big-features-section {
   padding: 30px var(--padding-inline-section 0);
@@ -255,4 +258,13 @@ footer {
 .footer-container {
   align-items: flex-start;
   justify-content: space-between;
+}
+/* Sub Footer */
+.subfooter {
+  background-color: #b9cde4;
+  padding: var(--padding-inline-section);
+}
+.sub-footer-container {
+  justify-content: center;
+  gap: 30px;
 }
