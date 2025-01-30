@@ -40,7 +40,7 @@ a {
   text-decoration: none;
   display: inline-block;
 }
-ul{
+ul {
   list-style: none;
 }
 
@@ -60,14 +60,14 @@ ul{
   display: flex;
   align-items: center;
 }
-.hover-link{
+.hover-link {
   color: var(--primary-text-color);
   transition: 0.2s ease-out;
 }
-.hover-link:hover{
+.hover-link:hover {
   color: var(--accent-color);
 }
-.primary-button{
+.primary-button {
   background-color: var(--accent-color);
   border-radius: 6px;
   font-weight: 700;
@@ -76,10 +76,10 @@ ul{
   box-shadow: 0 0 2px var(--secondary-text-color);
   transition: 0.2s ease-out;
 }
-.primary-button:hover{
+.primary-button:hover {
   background-color: var(--accent-color-dark);
 }
-.secondary-button{
+.secondary-button {
   border: 0.5px solid var(--secondary-text-color);
   border-radius: 6px;
   font-weight: 700;
@@ -87,7 +87,7 @@ ul{
   padding: 12px 24px;
   transition: 0.2s ease-out;
 }
-.secondary-button:hover{
+.secondary-button:hover {
   border-color: var(--accent-color);
   color: var(--accent-color) !important;
 }
@@ -110,46 +110,70 @@ ul{
   margin-top: 20px;
   justify-content: space-between;
 }
-.company-logo img{
+.company-logo img {
   width: 200px;
 }
-.nav-links{
+.nav-links {
   flex-basis: 730px;
 }
-.nav-links ul{
+.nav-links ul {
   justify-content: end;
   gap: 40px;
 }
 /* Header Section */
-header{
+header {
   padding: 50px var(--padding-inline-section) 0;
 }
-.header-section{
+.header-section {
   justify-content: center;
   gap: 50px;
 }
-.header-left{
+.header-left {
   max-width: 40vw;
 }
-.header-left h1{
+.header-left h1 {
   margin-top: 20px;
 }
-.get-started-btn{
+.get-started-btn {
   margin-top: 20px;
 }
-.header-right img{
+.header-right img {
   width: 600px;
 }
 /* Companies Section */
-.companies-header{
+.companies-header {
   text-align: center;
   margin-block: 30px;
   color: var(--primary-text-color);
 }
-.logos{
+.logos {
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .logo {
   height: 46px;
+}
+/* Features Section*/
+.features-section {
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url(./assets/asset\ 32.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.features-header {
+  text-align: center;
+}
+.features-heading-text {
+  margin-top: 20px;
+}
+.features-area {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
+}
+.features-card {
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
 }
